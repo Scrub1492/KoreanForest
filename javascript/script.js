@@ -2,6 +2,7 @@
 let darkMode = localStorage.getItem('darkMode'); 
 
 const darkModeToggle = document.querySelector('#dark-mode-toggle');
+const cardQuestion = document.querySelector('#card-question');
 
 const enableDarkMode = () => {
   // 1. Add the class to the body
@@ -39,3 +40,4 @@ darkModeToggle.addEventListener('click', () => {
     disableDarkMode(); 
   }
 });
+

@@ -84,6 +84,12 @@ h1 {
   color: var(--foreground);
 }
 
+.btn-answer {
+  background: var(--clr-accent);
+  color: var(--forground);
+  width: 150px;
+}
+
 .btn::after {
   content: "";
   position: absolute;
