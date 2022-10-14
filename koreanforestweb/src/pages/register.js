@@ -1,12 +1,12 @@
-import React, { useRef } from "react";
+import React from "react";
 import DarkModeToggleButton from "../components/DarkModeToggleButton";
 import RegisterForm from "../components/RegisterForm";
 
-export default function login() {
+export default function register() {
 
     return (
         <>
-            <h2>어숲    </h2>
+            <h2>어숲</h2>
             <DarkModeToggleButton />
             <RegisterForm />
         </>
