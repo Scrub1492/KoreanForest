@@ -30,17 +30,6 @@ sequelize
     console.error('Unable to connect to the database:', err);
   });
 
-const SaveData = sequelize.define('saveData', {
-  userId: {
-    type: Sequelize.STRING,
-    unique: true,
-  },
-  save1: {
-    type: Sequelize.JSON,
-    defaultValue: topik,
-  }
-})
-
 const UserData = sequelize.define('userData', {
   userId: {
     type: Sequelize.STRING,
@@ -53,6 +42,11 @@ const UserData = sequelize.define('userData', {
     type: Sequelize.STRING,
   },
   email: {
+    type: Sequelize.STRING,
+  },
+  
+  //quiz save data
+  mainsave: {
     type: Sequelize.STRING,
   }
 },
