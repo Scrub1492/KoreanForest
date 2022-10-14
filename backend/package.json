@@ -1,0 +1,38 @@
+{
+  "name": "koreanforestbackend",
+  "version": "1.0.0",
+  "description": "Backend for korean forest web app",
+  "main": "server.js",
+  "scripts": {
+    "test": "test.js",
+    "serve": "nodemon api/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Scrub1492/KoreanForest.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Scrub1492/KoreanForest/issues"
+  },
+  "homepage": "https://github.com/Scrub1492/KoreanForest#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-flash": "^0.0.2",
+    "express-session": "^1.17.3",
+    "method-override": "^3.0.0",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "pg": "^8.8.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.23.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

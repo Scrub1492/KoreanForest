@@ -47,6 +47,15 @@ h1 {
   padding: 1em;
 }
 
+h2 {
+  font-size: calc(2rem + 5vw);
+  font-family: var(--ff-title);
+  margin: auto;
+  text-align: center;
+  line-height: 1; 
+  padding: 1em;
+}
+
 .subtitle {
   font-size: 20px;
   max-width: 600px;
@@ -93,7 +102,7 @@ h1 {
 
 .btn-answer {
   background: var(--clr-accent);
-  color: var(--forground);
+  color: var(--foreground);
   width: 150px;
 }
 
@@ -109,18 +118,3 @@ h1 {
 .intro > * {
   grid-column: 2 / 3;
 }
-
-.dark-mode-toggle {
-  position: absolute;
-  z-index: 100;
-  top: 1em;
-  right: 1em;
-  fill: var(--foreground);
-  border: none;
-  padding: 4px;
-  background: transparent;
-  cursor: pointer;
-  width: 30px;
-  height: 30px;
-}
-
